@@ -1,0 +1,89 @@
+body{
+    background-color: #522727e1;
+}
+.encabezado{
+    background-color: rgb(75, 218, 9);
+    height: auto;
+    width: 100vw;
+}
+.blanco{
+    color: white;
+}
+.rojo{
+    color: red ;
+}
+.navbar{
+    width: 100%;
+}
+.navbar-nav a{
+    text-align: center;
+    color: black;
+    margin: 10px;
+    font-size: 1.5rem;
+    
+}
+.imagenPrincipal {
+    background-image: url("imagenes/share-fb.jpg");
+    background-size: cover;
+    height: calc(100vh - 100px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emblema {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 20px auto; 
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.emblema img {
+    max-width: 50%;
+
+}
+.emblema a {
+    color:black;
+    font-size: 1.5rem;
+}
+
+.emblema p {
+    margin: 20px 0;
+}
+.iniciales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border: 3px solid #522727e1;
+    padding: 20px;
+    box-shadow: 0px 3px 6px rgba;
+    margin: 20px auto; 
+    max-width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.imagenesIconos {
+    height: 100%;
+}
+.footer{
+    background-color: rgb(42, 165, 93);
+}
+.textoSlide {
+color:blueviolet
+}
+.imagenSlide {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+textoMapa {
+    text-align: center;
+    background-color: aliceblue;
+}
