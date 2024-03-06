@@ -1,5 +1,5 @@
 body{
-    background-color: #522727e1;
+    background-color: #ebe0e0e1;
 }
 .encabezado{
     background-color: rgb(75, 218, 9);
@@ -31,6 +31,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.titulo{
+    text-align: center;
+}
 .emblema {
     display: flex;
     flex-direction: column;
@@ -52,7 +55,8 @@ body{
 }
 
 .emblema p {
-    margin: 20px 0;
+    font-size: 1.5rem;
+    color:black;
 }
 .iniciales{
     display: flex;
@@ -86,4 +90,7 @@ color:blueviolet
 textoMapa {
     text-align: center;
     background-color: aliceblue;
+}
+.pokeball {
+    background-color: transparent;
 }
