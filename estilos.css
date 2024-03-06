@@ -1,8 +1,13 @@
+/* CSS HEX
+--penn-red: #960200ff;
+--prussian-blue: #12263aff;
+--robin-egg-blue: #06bcc1ff;
+--tangerine: #f28f3bff;*/
 body{
     background-color: #ebe0e0e1;
 }
 .encabezado{
-    background-color: rgb(75, 218, 9);
+    background-color: #960200ff;
     height: auto;
     width: 100vw;
 }
@@ -12,12 +17,17 @@ body{
 .rojo{
     color: red ;
 }
-.navbar{
-    width: 100%;
+.navbar-toggler {
+    border-color: black; /* Hace el borde del botón transparente */
+    outline: none; /* Elimina el contorno en foco */
+}
+
+.navbar-toggler-icon::after {
+    background-color: white; /* Cambia el color de las líneas del botón */
 }
 .navbar-nav a{
     text-align: center;
-    color: black;
+    color: white;
     margin: 10px;
     font-size: 1.5rem;
     
@@ -33,6 +43,10 @@ body{
 }
 .titulo{
     text-align: center;
+    background-color: #941313e1;
+}
+.titulo p{
+    color:aqua
 }
 .emblema {
     display: flex;
@@ -77,11 +91,19 @@ body{
     height: 100%;
 }
 .footer{
-    background-color: rgb(42, 165, 93);
+    background-color: #06bcc1ff;
+    font-weight: bold;
 }
 .textoSlide {
-color:blueviolet
+color:blueviolet;
+font-size: 1,5rem;
+font-weight: bold;
 }
+.textoSlide1 {
+    color:white;
+    font-size: 1,5rem;
+    font-weight: bold;
+    }
 .imagenSlide {
     max-width: 100%;
     max-height: 100%;
