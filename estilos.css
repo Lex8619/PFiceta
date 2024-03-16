@@ -3,116 +3,135 @@
 --prussian-blue: #12263aff;
 --robin-egg-blue: #06bcc1ff;
 --tangerine: #f28f3bff;*/
-body{
-    background-color: #ebe0e0e1;
+body {
+  background-color: rgba(235, 224, 224, 0.8823529412);
+  width: auto;
+  overflow-x: hidden;
 }
-.encabezado{
-    background-color: #960200ff;
-    height: auto;
-    width: 100vw;
+
+.encabezado {
+  background-color: #960200;
+  height: auto;
+  width: 100vw;
 }
-.blanco{
-    color: white;
+
+.blanco {
+  color: white;
 }
-.rojo{
-    color: red ;
+
+.rojo {
+  color: red;
 }
+
 .navbar-toggler {
-    border-color: black; /* Hace el borde del botón transparente */
-    outline: none; /* Elimina el contorno en foco */
+  border-color: black;
+  outline: none;
 }
 
 .navbar-toggler-icon::after {
-    background-color: white; /* Cambia el color de las líneas del botón */
+  background-color: white;
 }
-.navbar-nav a{
-    text-align: center;
-    color: white;
-    margin: 10px;
-    font-size: 1.5rem;
-    
+
+.navbar-nav a {
+  text-align: center;
+  color: white;
+  margin: 10px;
+  font-size: 1.5rem;
 }
+
 .imagenPrincipal {
-    background-image: url("imagenes/share-fb.jpg");
-    background-size: cover;
-    height: calc(100vh - 100px);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url("imagenes/share-fb.jpg");
+  background-size: cover;
+  height: calc(100vh - 100px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.titulo{
-    text-align: center;
-    background-color: #941313e1;
+
+.titulo {
+  text-align: center;
+  background-color: rgba(148, 19, 19, 0.8823529412);
 }
-.titulo p{
-    color:aqua
+
+.titulo p {
+  color: aqua;
 }
+
 .emblema {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    margin: 20px auto; 
-    max-width: 50%;
-    box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin: 20px auto;
+  max-width: 50%;
+  box-sizing: border-box;
 }
 
 .emblema img {
-    max-width: 50%;
-
+  max-width: 50%;
 }
+
 .emblema a {
-    color:black;
-    font-size: 1.5rem;
+  color: black;
+  font-size: 1.5rem;
 }
 
 .emblema p {
-    font-size: 1.5rem;
-    color:black;
+  font-size: 1.5rem;
+  color: black;
 }
-.iniciales{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:white;
-    border: 3px solid #522727e1;
-    padding: 20px;
-    box-shadow: 0px 3px 6px rgba;
-    margin: 20px auto; 
-    max-width: 30%;
-    box-sizing: border-box;
-    margin-bottom: 20px;
+
+.iniciales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 3px solid rgba(82, 39, 39, 0.8823529412);
+  padding: 20px;
+  box-shadow: 0px 3px 6px rgba;
+  margin: 20px auto;
+  max-width: 30%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 .imagenesIconos {
-    height: 100%;
+  height: 100%;
 }
-.footer{
-    background-color: #06bcc1ff;
-    font-weight: bold;
+
+.footer {
+  background-color: #06bcc1;
+  font-weight: bold;
 }
+
 .textoSlide {
-color:blueviolet;
-font-size: 1,5rem;
-font-weight: bold;
+  color: blueviolet;
+  font-size: 1, 5rem;
+  font-weight: bold;
 }
+
 .textoSlide1 {
-    color:white;
-    font-size: 1,5rem;
-    font-weight: bold;
-    }
+  color: white;
+  font-size: 1, 5rem;
+  font-weight: bold;
+}
+
 .imagenSlide {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
+
 textoMapa {
-    text-align: center;
-    background-color: aliceblue;
+  text-align: center;
+  background-color: aliceblue;
 }
+
 .pokeball {
-    background-color: transparent;
+  background-color: transparent;
 }
+
+/*# sourceMappingURL=estilos.css.map */
