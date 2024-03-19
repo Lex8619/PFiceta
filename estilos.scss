@@ -3,21 +3,38 @@
 --prussian-blue: #12263aff;
 --robin-egg-blue: #06bcc1ff;
 --tangerine: #f28f3bff;*/
+
+$var1:50%;
+
 body{
     background-color: #ebe0e0e1;
+    background-image: linear-gradient(red,white);
     width: auto;
     overflow-x: hidden;
 }
 .encabezado{
     background-color: #960200ff;
+    animation-name: barraAnimada;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in;
+    animation: duration 2px;
     height: auto;
     width: 100vw;
 }
+
+@keyframes barraAnimada {
+    0%{background-color: #960200ff;}
+    10%{background-image: linear-gradient(to right, red,white);}
+    20%{background-image: linear-gradient(to right,white,red);}
+    60%{background-image: linear-gradient(to right, red,white);}
+    100%{background-color: #960200ff;}
+}
+    
 .blanco{
     color: white;
 }
 .rojo{
-    color: red ;
+    color:red;
 }
 .navbar-toggler {
     border-color: black; 
@@ -27,13 +44,15 @@ body{
 .navbar-toggler-icon::after {
     background-color: white; 
 }
-.navbar-nav a{
-    text-align: center;
-    color: white;
-    margin: 10px;
-    font-size: 1.5rem;
+.navbar-nav {
+        a {
+            text-align: center;
+            color: white;
+            margin: 10px;
+            font-size: 1.5rem;}
     
-}
+            }
+
 .imagenPrincipal {
     background-image: url("imagenes/share-fb.jpg");
     background-size: cover;
@@ -47,10 +66,11 @@ body{
 .titulo{
     text-align: center;
     background-color: #941313e1;
-}
-.titulo p{
+         p{
     color:aqua
-}
+            }
+        }
+
 .emblema {
     display: flex;
     flex-direction: column;
@@ -58,23 +78,22 @@ body{
     align-items: center;
     background-color: transparent;
     margin: 20px auto; 
-    max-width: 50%;
+    max-width: $var1;
     box-sizing: border-box;
-}
+    img {
+    max-width: $var1;
 
-.emblema img {
-    max-width: 50%;
-
-}
-.emblema a {
+        }
+    a {
     color:black;
     font-size: 1.5rem;
-}
-
-.emblema p {
+      }
+    p {
     font-size: 1.5rem;
     color:black;
-}
+      }
+    }
+
 .iniciales{
     display: flex;
     flex-direction: column;

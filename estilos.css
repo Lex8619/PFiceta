@@ -5,16 +5,38 @@
 --tangerine: #f28f3bff;*/
 body {
   background-color: rgba(235, 224, 224, 0.8823529412);
+  background-image: linear-gradient(red, white);
   width: auto;
   overflow-x: hidden;
 }
 
 .encabezado {
   background-color: #960200;
+  animation-name: barraAnimada;
+  animation-iteration-count: 3;
+  animation-timing-function: ease-in;
+  animation: duration 2px;
   height: auto;
   width: 100vw;
 }
 
+@keyframes barraAnimada {
+  0% {
+    background-color: #960200;
+  }
+  10% {
+    background-image: linear-gradient(to right, red, white);
+  }
+  20% {
+    background-image: linear-gradient(to right, white, red);
+  }
+  60% {
+    background-image: linear-gradient(to right, red, white);
+  }
+  100% {
+    background-color: #960200;
+  }
+}
 .blanco {
   color: white;
 }
@@ -54,7 +76,6 @@ body {
   text-align: center;
   background-color: rgba(148, 19, 19, 0.8823529412);
 }
-
 .titulo p {
   color: aqua;
 }
@@ -69,16 +90,13 @@ body {
   max-width: 50%;
   box-sizing: border-box;
 }
-
 .emblema img {
   max-width: 50%;
 }
-
 .emblema a {
   color: black;
   font-size: 1.5rem;
 }
-
 .emblema p {
   font-size: 1.5rem;
   color: black;
