@@ -17,16 +17,16 @@ body{
     animation-name: barraAnimada;
     animation-iteration-count: 2;
     animation-timing-function: ease-in;
-    animation-duration: 3s;
+    animation-duration: 1s;
     height: auto;
     width: 100vw;
 }
 
 @keyframes barraAnimada {
     0%{background-color: #960200ff;}
-    10%{background-image: linear-gradient(to right, red,white);}
-    20%{background-image: linear-gradient(to right,white,red);}
-    60%{background-image: linear-gradient(to right, red,white);}
+    10%{background-image: linear-gradient(to right, red 10%,white);}
+    20%{background-image: linear-gradient(to right,white 30%,red);}
+    60%{background-image: linear-gradient(to right, red 60%,white);}
     100%{background-color: #960200ff;}
 }
     
