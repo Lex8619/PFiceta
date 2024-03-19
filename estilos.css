@@ -126,6 +126,21 @@ body {
   font-weight: bold;
 }
 
+.pokeball {
+  animation: rotar 5s linear infinite;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .textoSlide {
   color: blueviolet;
   font-size: 1, 5rem;
@@ -151,10 +166,6 @@ body {
 textoMapa {
   text-align: center;
   background-color: aliceblue;
-}
-
-.pokeball {
-  background-color: transparent;
 }
 
 /*# sourceMappingURL=estilos.css.map */
