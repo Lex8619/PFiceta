@@ -47,6 +47,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .titulo {
@@ -123,6 +124,10 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+}
+
+.carruselGeneral {
+  margin-bottom: 20px;
 }
 
 textoMapa {
