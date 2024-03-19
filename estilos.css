@@ -13,9 +13,9 @@ body {
 .encabezado {
   background-color: #960200;
   animation-name: barraAnimada;
-  animation-iteration-count: 3;
+  animation-iteration-count: 2;
   animation-timing-function: ease-in;
-  animation: duration 2px;
+  animation-duration: 3s;
   height: auto;
   width: 100vw;
 }
