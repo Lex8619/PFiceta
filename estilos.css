@@ -2,7 +2,38 @@
 --penn-red: #960200ff;
 --prussian-blue: #12263aff;
 --robin-egg-blue: #06bcc1ff;
---tangerine: #f28f3bff;*/
+--tangerine: #f28f3bff;
+
+colores ataque 
+$blue-violet: #9046cfff;
+$silver: #b3b3b3ff;
+$orchid: #cc59d2ff;
+$school-bus-yellow: #fde12dff;
+$poppy: #df2935ff;
+
+colores apoyo
+--chocolate-cosmos: #6a041dff;
+--xanthous: #f5b841ff;
+--icterine: #f4ff52ff;
+--green-blue: #306bacff;
+--erin: #53ff45ff;
+
+colores defensa
+--malachite: #04e762ff;
+--selective-yellow: #f5b700ff;
+--celestial-blue: #00a1e4ff;
+--red-pantone: #e71d36ff;
+--chartreuse: #89fc00ff;
+*/
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
 body {
   background-color: rgba(235, 224, 224, 0.8823529412);
   background-image: linear-gradient(red, white);
@@ -131,6 +162,12 @@ body {
   background-color: transparent;
   border: none;
   box-shadow: none;
+}
+
+.copete {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 @keyframes rotar {

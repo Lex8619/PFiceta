@@ -2,9 +2,54 @@
 --penn-red: #960200ff;
 --prussian-blue: #12263aff;
 --robin-egg-blue: #06bcc1ff;
---tangerine: #f28f3bff;*/
+--tangerine: #f28f3bff;
+
+colores ataque 
+$blue-violet: #9046cfff;
+$silver: #b3b3b3ff;
+$orchid: #cc59d2ff;
+$school-bus-yellow: #fde12dff;
+$poppy: #df2935ff;
+
+colores apoyo
+--chocolate-cosmos: #6a041dff;
+--xanthous: #f5b841ff;
+--icterine: #f4ff52ff;
+--green-blue: #306bacff;
+--erin: #53ff45ff;
+
+colores defensa
+--malachite: #04e762ff;
+--selective-yellow: #f5b700ff;
+--celestial-blue: #00a1e4ff;
+--red-pantone: #e71d36ff;
+--chartreuse: #89fc00ff;
+*/
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 700
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
+
+
 
 $var1:50%;
+$colorAtaque1:#9046cfff;
+$colorAtaque2:#b3b3b3ff;
+$colorAtaque3:#cc59d2ff;
+$colorAtaque4:#fde12dff;
+$colorDefensa1:#04e762ff;
+$colorDefensa2:#f5b700ff;
+$colorDefensa3:#00a1e4ff;
+$colorDefensa4:#e71d36ff;
+$colorSoporte1:#6a041dff;
+$colorSoporte2:#f5b841ff;
+$colorSoporte3:#306bacff;
+$colorSoporte4:#53ff45ff;
 
 body{
     background-color: #ebe0e0e1;
@@ -122,6 +167,12 @@ body{
     background-color: transparent;
     border: none;
     box-shadow: none;
+}
+.copete{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
 }
 
 @keyframes rotar {
